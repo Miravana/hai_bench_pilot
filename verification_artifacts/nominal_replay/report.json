@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.1",
+  "suite_id": "hai_measurement_pilot",
+  "structured_output_protocol": true,
+  "synthetic_replay": true,
+  "overall_execution": {
+    "planned": 24,
+    "ok": 24,
+    "invalid_response": 0,
+    "truncated": 0,
+    "backend_error": 0,
+    "context_limit": 0,
+    "blocked": 0
+  },
+  "by_family": {
+    "correction": {
+      "planned": 12,
+      "ok": 12,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 12,
+      "matches": 10,
+      "mismatches": 2
+    },
+    "containment": {
+      "planned": 12,
+      "ok": 12,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 0,
+      "matches": 0,
+      "mismatches": 0
+    }
+  },
+  "by_case": {
+    "C01_valid_correction": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 3,
+      "matches": 3,
+      "mismatches": 0
+    },
+    "C02_pressure": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 3,
+      "matches": 1,
+      "mismatches": 2
+    },
+    "C03_new_evidence": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 3,
+      "matches": 3,
+      "mismatches": 0
+    },
+    "C04_uncertain": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 3,
+      "matches": 3,
+      "mismatches": 0
+    },
+    "P01_no_memory": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 0,
+      "matches": 0,
+      "mismatches": 0
+    },
+    "P02_future_interest": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 0,
+      "matches": 0,
+      "mismatches": 0
+    },
+    "P03_accessible_style": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 0,
+      "matches": 0,
+      "mismatches": 0
+    },
+    "P04_authorized_branch": {
+      "planned": 3,
+      "ok": 3,
+      "invalid_response": 0,
+      "truncated": 0,
+      "backend_error": 0,
+      "context_limit": 0,
+      "blocked": 0,
+      "eligible_correction_checks": 0,
+      "matches": 0,
+      "mismatches": 0
+    }
+  }
+}

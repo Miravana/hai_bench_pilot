@@ -1,0 +1,16 @@
+# Local experiment outputs
+/runs/
+
+# Python caches and local environments
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local secrets and operating-system metadata
+.env
+.env.*
+!.env.example
+.DS_Store

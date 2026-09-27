@@ -1,0 +1,19 @@
+{
+  "verified_at_utc": "2026-09-25T03:42:39.088066+00:00",
+  "python": "3.12.14",
+  "fresh_temporary_extraction": true,
+  "test_methods_passed": 16,
+  "unit_test_exit_code": 0,
+  "suite_validation_exit_code": 0,
+  "unpacked_replay_exit_code": 0,
+  "unpacked_replay_execution": {
+    "backend_error": 0,
+    "blocked": 0,
+    "context_limit": 0,
+    "invalid_response": 0,
+    "ok": 24,
+    "planned": 24,
+    "truncated": 0
+  },
+  "note": "Tests run against extracted code. Only this evidence record and checksum inventory were added afterward."
+}

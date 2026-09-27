@@ -1,0 +1,21 @@
+test_endpoint_validation (test_adapters.AdapterTests.test_endpoint_validation) ... ok
+test_http_fixture (test_adapters.AdapterTests.test_http_fixture) ... ok
+test_replay_and_missing (test_adapters.AdapterTests.test_replay_and_missing) ... ok
+test_mismatch_is_data_but_missing_fixture_is_failure (test_cli.CLITests.test_mismatch_is_data_but_missing_fixture_is_failure) ... ok
+test_validate_and_run_status_codes (test_cli.CLITests.test_validate_and_run_status_codes) ... ok
+test_exact_match_does_not_prove_explanation_and_rejects_numeric_answers (test_core.CoreTests.test_exact_match_does_not_prove_explanation_and_rejects_numeric_answers) ... ok
+test_existing_output_refused_and_config_validation (test_core.CoreTests.test_existing_output_refused_and_config_validation) ... ok
+test_failure_denominators_and_review_refs_across_cases (test_core.CoreTests.test_failure_denominators_and_review_refs_across_cases) ... ok
+test_invalid_envelope_and_start_case_failure_are_recorded (test_core.CoreTests.test_invalid_envelope_and_start_case_failure_are_recorded) ... ok
+test_invalid_response_is_preserved_and_later_turn_runs (test_core.CoreTests.test_invalid_response_is_preserved_and_later_turn_runs) ... ok
+test_match_is_exact_and_containment_is_unscored (test_core.CoreTests.test_match_is_exact_and_containment_is_unscored) ... ok
+test_requests_exclude_gold_and_future_turns_and_reset_history (test_core.CoreTests.test_requests_exclude_gold_and_future_turns_and_reset_history) ... ok
+test_snapshots_hashes_and_replay_are_reproducible (test_core.CoreTests.test_snapshots_hashes_and_replay_are_reproducible) ... ok
+test_strict_response_json (test_core.CoreTests.test_strict_response_json) ... ok
+test_suite_schema_rejects_malformed_and_seeded_history (test_core.CoreTests.test_suite_schema_rejects_malformed_and_seeded_history) ... ok
+test_truncation_context_limit_and_failure_block_remaining_turns (test_core.CoreTests.test_truncation_context_limit_and_failure_block_remaining_turns) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.801s
+
+OK

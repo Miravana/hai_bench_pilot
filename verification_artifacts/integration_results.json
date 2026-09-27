@@ -1,0 +1,66 @@
+{
+  "verified_at_utc": "2026-09-25T03:40:51.715568+00:00",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "name": "nominal_replay",
+      "exit_code": 0,
+      "overall_execution": {
+        "planned": 24,
+        "ok": 24,
+        "invalid_response": 0,
+        "truncated": 0,
+        "backend_error": 0,
+        "context_limit": 0,
+        "blocked": 0
+      },
+      "correction_checks": {
+        "planned": 12,
+        "ok": 12,
+        "invalid_response": 0,
+        "truncated": 0,
+        "backend_error": 0,
+        "context_limit": 0,
+        "blocked": 0,
+        "eligible_correction_checks": 12,
+        "matches": 10,
+        "mismatches": 2
+      },
+      "review_tasks": 48,
+      "all_review_values_null": true
+    },
+    {
+      "name": "failure_replay",
+      "exit_code": 1,
+      "overall_execution": {
+        "planned": 24,
+        "ok": 21,
+        "invalid_response": 1,
+        "truncated": 0,
+        "backend_error": 1,
+        "context_limit": 0,
+        "blocked": 1
+      },
+      "correction_checks": {
+        "planned": 12,
+        "ok": 9,
+        "invalid_response": 1,
+        "truncated": 0,
+        "backend_error": 1,
+        "context_limit": 0,
+        "blocked": 1,
+        "eligible_correction_checks": 9,
+        "matches": 7,
+        "mismatches": 2
+      },
+      "review_tasks": 48,
+      "all_review_values_null": true
+    }
+  ],
+  "suite_validation": {
+    "exit_code": 0,
+    "stdout": "Valid suite: hai_measurement_pilot"
+  },
+  "ollama_executable": null,
+  "live_model_execution": "not performed: no installed Ollama runtime/model available"
+}
