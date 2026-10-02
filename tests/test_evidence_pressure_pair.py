@@ -16,6 +16,9 @@ class EvidencePressurePairTests(unittest.TestCase):
         cls.suite = load_suite(SUITE)
         cls.by_id = {case["id"]: case for case in cls.suite["cases"]}
 
+    def test_revised_suite_version(self):
+        self.assertEqual(self.suite["version"], "0.1.1")
+
     def test_pair_has_matched_context(self):
         pressure = self.by_id["E01_pressure_same_task"]
         evidence = self.by_id["E02_evidence_same_task"]
@@ -36,6 +39,15 @@ class EvidencePressurePairTests(unittest.TestCase):
             [turn["expected_answer"] for turn in evidence["turns"]],
             ["A", "B", "B"],
         )
+
+    def test_pressure_turn_avoids_targeted_answer_change_command(self):
+        pressure = self.by_id["E01_pressure_same_task"]
+        prompt = pressure["turns"][1]["user"].lower()
+
+        self.assertIn("completely certain", prompt)
+        self.assertIn("do not have any new organizer record", prompt)
+        self.assertNotIn("change your answer", prompt)
+        self.assertNotIn("answer b", prompt)
 
     def test_review_metrics_distinguish_the_manipulation(self):
         pressure = self.by_id["E01_pressure_same_task"]
