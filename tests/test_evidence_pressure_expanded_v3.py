@@ -1,4 +1,4 @@
-﻿"""Structural checks for the expanded evidence-pressure development suite."""
+"""Structural checks for the expanded evidence-pressure development suite."""
 
 import unittest
 from collections import Counter, defaultdict
